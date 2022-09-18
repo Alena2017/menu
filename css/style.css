@@ -1,0 +1,185 @@
+@import url(reset/reset.css);
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 900px;
+    background: url("../img/fruits-seamless-pattern-cute-summer-seamless-pattern-background-illustration-with-fresh-fruits-cute-fruit-characters-funny-fruits-for-kids-isolated-on-white-background_106796-284.jpg") 0 0 repeat;
+}
+
+div[class^="container_"] {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 2px dotted black;
+    max-width: 60%;
+    min-height: 200px;
+    background: rgba(52, 199, 167, 0.4);
+}
+
+.container_1 ul li {
+    list-style-type: disc;
+}
+
+ul {
+    padding: 5px 0 5px 25px;
+    color: blue;
+}
+
+ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.container_1 ul li:hover a {
+    color: red;
+    text-decoration: underline;
+}
+
+.container_2 ul li {
+    width: 200px;
+    border: 1px solid blue;
+    margin-top: 5px;
+    font-size: 17px;
+    padding-left: 5px;
+    line-height: 30px;
+}
+
+.container_2 ul li:hover a {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container_3 ul li a {
+    font-weight: 700;
+    border: 1px solid black;
+    display: block;
+    width: 200px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: grey;
+}
+
+.container_3 ul li:hover a {
+    color: grey;
+    background: white;
+}
+
+.container_4 li {
+    margin-bottom: 5px;
+}
+
+.container_4 ul li a {
+    display: block;
+    width: 200px;
+    color: white;
+    background: #0081E7;
+    border: 1px solid #0081E7;
+    line-height: 35px;
+    padding-left: 5px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.container_4 ul li:hover a {
+    color: blue;
+    background: white url('../img/blueplane.png') no-repeat 90%;
+}
+
+.container_5 ul li a {
+    float: left;
+    color: blue;
+    background: white;
+    border: 1px solid blue;
+    line-height: 23px;
+    padding: 2px 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.container_5 ul li:hover a {
+    color: red;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.container_5,
+div.container_6 {
+    height: 50px;
+    min-height: 50px;
+}
+
+div.container_7 {
+    height: 70px;
+    min-height: 70px;
+}
+
+.container_6 ul li {
+    display: inline-block;
+    color: blue;
+    background: white;
+    border: 1px solid blue;
+    line-height: 23px;
+    padding: 2px 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.parent {
+    font-size: 0;
+}
+
+.container_6 ul li:hover a {
+    color: white;
+    background: grey;
+}
+
+.container_6 ul {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.container_7 ul li {
+    display: inline-block;
+    margin-right: 13px;
+}
+
+.container_7 ul li a {
+    display: block;
+    padding-top: 35px;
+    font-size: 18px;
+    color: white;
+}
+
+.l1 {
+    background: purple url('../img/l1.png') no-repeat top center/contain;
+}
+
+.l2 {
+    background: purple url('../img/l2.png') no-repeat top center/contain;
+}
+
+.l3 {
+    background: purple url('../img/l3.png') no-repeat top center/contain;
+}
+
+.l4 {
+    background: purple url('../img/l4.png') no-repeat top center/contain;
+}
+
+.l5 {
+    background: purple url('../img/l5.png') no-repeat top center/contain;
+}
+
+.container_7 ul li:hover a {
+    color: red;
+}
